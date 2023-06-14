@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swarnali Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .left{
+        display: inline-block;
+        #border: 2px solid red;
+        position: absolute;
+        left  : 60px;
+        top: 20px;
+    }    
+
+    .left> img{
+        width: 136px;
+        background-repeat: no-repeat;
+
+    }
+
+    .left> div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        #border: 2px solid green;
+    }
+
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        #border: 2px solid yellow;
+    }
+
+    .navbar{
+        display: inline-block;
+    }
+
+    .navbar>li{
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar >li>a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar >li>a:hover{
+        text-decoration: underline;
+    }
+
+    .navbar >li>a.active{
+        color:blueviolet;
+    }
+
+    .btn{
+        margin: 0px 9px ;
+        background-color: black
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor:pointer;
+    }
+
+    .btn:hover{
+        background-color: rgb(92, 81, 81);
+    }
+
+    .container{
+        #border: 2px solid grey;;
+        margin: 130px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px ;
+    }
+
+    .forn-grp input{
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 20px;
+        font-family: 'Baloo Bhai',cursive;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        display: block;
+        width: 20%;
+        margin: 20px auto;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/download-modified.png" alt="">
+            <div> S Fitness</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+            
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Silchar now</h1>
+        <form action="noaction.php">
+            <div class="forn-grp">
+                <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="forn-grp">
+                <input type="text" name="age" placeholder="Enter your age">
+            </div>
+            <div class="forn-grp">
+                <input type="text" name="gender" placeholder="Enter your gender">
+            </div>
+            <div class="forn-grp">
+                <input type="text" name="locality" placeholder="Enter your locality">
+            </div>
+            <div class="forn-grp">
+                <input type="number" name="Contact number" placeholder="Enter your Contact number">
+            </div>
+            <div class="forn-grp">
+                <input type="email" name="Email" placeholder="Enter your email ">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>    
+</body>
+</html> 
