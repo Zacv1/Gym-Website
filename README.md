@@ -1,6 +1,6 @@
 # Gym-Website
 
-My First Website, developed by me to relinquish my passion for Web Development.
+My First Website, developed by me to relinquish my passion for Web Development and learn as many technologies as my brain can coneive.
 
 # About the Website
 
